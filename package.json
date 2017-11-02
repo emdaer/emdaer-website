@@ -1,0 +1,51 @@
+{
+  "name": "emdaer.github.io",
+  "version": "1.0.0",
+  "description": "emdaer website",
+  "main": "n/a",
+  "repository": "git@github.com:emdaer/emdaer.github.io.git",
+  "author": "Luke Herrington <lherrington100@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "precommit": "make precommit",
+    "commitmsg": "make commitmsg"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "resolutions": {
+    "gatsby/graphql": "0.10.5",
+    "gatsby/react": "16.0.0",
+    "gatsby/react-dom": "16.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/config-angular": "^4.2.1",
+    "@emdaer/cli": "^1.2.2",
+    "@emdaer/core": "^1.2.2",
+    "@emdaer/plugin-contributors-details-github": "^1.2.1",
+    "@emdaer/plugin-import": "^1.2.2",
+    "@emdaer/plugin-license-reference": "^1.2.1",
+    "@emdaer/plugin-shields": "^1.2.1",
+    "@emdaer/plugin-value-from-package": "^1.2.1",
+    "@emdaer/transform-smartypants": "^1.2.1",
+    "babel-eslint": "^8.0.1",
+    "commitlint": "^4.2.2",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.2.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.4.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.3.0",
+    "prettier": "^1.7.4"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.96",
+    "gatsby-link": "^1.6.24",
+    "gatsby-plugin-react-helmet": "^1.0.8"
+  }
+}
