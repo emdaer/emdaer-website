@@ -15,13 +15,13 @@ if [[ $TRAVIS_BRANCH == 'site' ]]; then
   rm -rf .git
   git init
   git clean -dfx
-  git remote add origin https://github.com/emdaer/emdaer.git
+  git remote add origin https://github.com/$TRAVIS_REPO_SLUG.git
   git fetch origin
   git clone https://github.com/$TRAVIS_REPO_SLUG.git $TRAVIS_REPO_SLUG
   git checkout $TRAVIS_BRANCH
 
   git config credential.helper store
-  echo "https://${DEPLOY_GH_USERNAME}:${DEPLOY_GH_TOKEN}@github.com/emdaer/emdaer.git" > ~/.git-credentials
+  echo "https://${DEPLOY_GH_USERNAME}:${DEPLOY_GH_TOKEN}@github.com/${$TRAVIS_REPO_SLUG}.git" > ~/.git-credentials
 
   git config --global user.email "${DEPLOY_GH_EMAIL}"
   git config --global user.name "${DEPLOY_GH_USERNAME}"
