@@ -6,6 +6,8 @@
 
 # emdaer.github.io · [![Travis](https://img.shields.io/travis/emdaer/emdaer.svg?style=flat-square)](https://travis-ci.org/emdaer/emdaer.github.io/) [![Documented with emdaer](https://img.shields.io/badge/📓-documented%20with%20emdaer-F06632.svg?style=flat-square)](https://github.com/emdaer/emdaer)
 emdaer website
+## Deployments
+Travis autodeploys the website to GitHub Pages using it&#8217;s `deploy` configuration when changes are merged into the `site` branch. Being an [Organization Page](https://help.github.com/articles/user-organization-and-project-pages/), the website code is stored on the `master` branch.
 <details>
 <summary><strong>Contributors</strong></summary><br />
 <a title="I build multi-channel publishing systems and web applications at @fourkitchens." href="https://github.com/infiniteluke">
