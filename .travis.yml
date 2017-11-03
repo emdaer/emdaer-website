@@ -20,3 +20,4 @@ deploy:
   name: emdaerbot
   on:
     branch: site
+    node: 8.9
