@@ -5,4 +5,18 @@ node_js:
 script:
   - make ci
 sudo: false
-after_success: .travis/after_success.sh
+branches:
+  except:
+    - /^v\d/
+before_deploy: yarn predeploy
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: public
+  target_branch: master
+  fqdn: emdaer.me
+  github_token: $DEPLOY_GH_TOKEN
+  email: flipactual+emdaer@gmail.com
+  name: emdaerbot
+  on:
+    branch: site
