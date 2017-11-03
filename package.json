@@ -8,7 +8,9 @@
   "license": "MIT",
   "scripts": {
     "precommit": "make precommit",
-    "commitmsg": "make commitmsg"
+    "commitmsg": "make commitmsg",
+    "predeploy": "make predeploy",
+    "deploy": "make deploy"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -46,6 +48,7 @@
   "dependencies": {
     "gatsby": "^1.9.96",
     "gatsby-link": "^1.6.24",
-    "gatsby-plugin-react-helmet": "^1.0.8"
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gh-pages": "^1.0.0"
   }
 }
