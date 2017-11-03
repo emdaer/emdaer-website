@@ -21,7 +21,7 @@ if [[ $TRAVIS_BRANCH == 'site' ]]; then
   git checkout $TRAVIS_BRANCH
 
   git config credential.helper store
-  echo "https://${DEPLOY_GH_USERNAME}:${DEPLOY_GH_TOKEN}@github.com/${$TRAVIS_REPO_SLUG}.git" > ~/.git-credentials
+  echo "https://${DEPLOY_GH_USERNAME}:${DEPLOY_GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" > ~/.git-credentials
 
   git config --global user.email "${DEPLOY_GH_EMAIL}"
   git config --global user.name "${DEPLOY_GH_USERNAME}"
