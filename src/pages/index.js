@@ -1,12 +1,22 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import g from 'glamorous';
+import { rhythm } from '../utils/typography';
 
 const IndexPage = () => (
   <div>
-    <h1>Emdaer</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <g.Section
+      fontSize={rhythm(4.5)}
+      marginTop={rhythm(2)}
+      marginBottom={rhythm(2)}
+      textAlign="center"
+    >
+      <span role="img" aria-label="Notebook">
+        📓
+      </span>
+      <g.P fontSize={rhythm(1.5)} textAlign="center">
+        Create and Maintain better READMEs
+      </g.P>
+    </g.Section>
   </div>
 );
 
