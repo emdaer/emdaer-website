@@ -11,7 +11,8 @@ branches:
 after_success:
   - export GH_PULL_REQUEST=$TRAVIS_PULL_REQUEST
   - make build
-  - surge-review
+  - cd public
+  - ../node_modules/.bin/surge-review
 before_deploy: yarn predeploy
 deploy:
   provider: pages
