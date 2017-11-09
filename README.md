@@ -21,7 +21,7 @@ Travis autodeploys the website to GitHub Pages using its `deploy` configuration 
 <strong>Flip</strong>
 <br /><br />
 </details>
-## License
 
+## License
 emdaer.github.io is [MIT licensed](./LICENSE).
 

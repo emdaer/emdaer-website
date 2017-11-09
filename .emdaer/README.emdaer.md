@@ -22,8 +22,8 @@ Travis autodeploys the website to GitHub Pages using its `deploy` configuration 
 <!--emdaer-p
   - '@emdaer/plugin-contributors-details-github'
 -->
-## License
 
+## License
 <!--emdaer-p
   - '@emdaer/plugin-license-reference'
 -->
