@@ -18,7 +18,7 @@
   - value: description
 -->
 ## Deployments
-Travis autodeploys the website to GitHub Pages using it's `deploy` configuration when changes are merged into the `site` branch. Being an [Organization Page](https://help.github.com/articles/user-organization-and-project-pages/), the website code is stored on the `master` branch.
+Travis autodeploys the website to GitHub Pages using its `deploy` configuration when changes are merged into the `site` branch. Being an [Organization Page](https://help.github.com/articles/user-organization-and-project-pages/), the website code is stored on the `master` branch.
 <!--emdaer-p
   - '@emdaer/plugin-contributors-details-github'
 -->
