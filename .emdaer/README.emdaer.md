@@ -22,6 +22,11 @@ Travis autodeploys the website to GitHub Pages using its `deploy` configuration 
 <!--emdaer-p
   - '@emdaer/plugin-contributors-details-github'
 -->
+## License
+
+<!--emdaer-p
+  - '@emdaer/plugin-license-reference'
+-->
 <!--emdaer-t
   - '@emdaer/transform-smartypants'
   - options: q
