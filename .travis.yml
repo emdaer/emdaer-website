@@ -10,6 +10,7 @@ branches:
     - /^v\d/
 before_script:
   - export GH_PULL_REQUEST=$TRAVIS_PULL_REQUEST
+  - echo $GH_PULL_REQUEST
 after_success:
   - node ./.travis/pr_deploy
 before_deploy: yarn predeploy
