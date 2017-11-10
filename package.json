@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@commitlint/config-angular": "^4.2.1",
-    "@emdaer/cli": "^1.2.2",
+    "@emdaer/cli": "^1.4.0",
     "@emdaer/core": "^1.4.0",
     "@emdaer/plugin-contributors-details-github": "^1.2.1",
     "@emdaer/plugin-import": "^1.4.0",
