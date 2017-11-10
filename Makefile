@@ -13,6 +13,9 @@ predeploy: build
 	touch public/static/.gitkeep
 deploy:
 	./node_modules/.bin/gh-pages -t -d public -b master
+deploy-pr: build
+	cd public
+	../node_modules/.bin/surge-review
 
 ci: commitlint-ci lint
 
