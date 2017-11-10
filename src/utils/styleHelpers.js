@@ -12,7 +12,7 @@ export const TextLink = g.a({
 
 export const ExternalLink = g(TextLink)({
   border: '2px solid white',
-  borderRadius: rhythm(1 / 4),
+  borderRadius: rhythm(1 / 5),
   padding: `${rhythm(1 / 8)} ${rhythm(1 / 3)}`,
   color: 'white',
 });

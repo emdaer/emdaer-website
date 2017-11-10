@@ -8,7 +8,7 @@ import { Navbar, Nav, Container, Row, Col } from 'reactstrap';
 import { rhythm } from '../utils/typography';
 import theme from '../utils/theme';
 import { ExternalLink, ExternalLinkIcon } from '../utils/styleHelpers';
-import logo from '../assets/logo-white-small.png';
+import logo from '../assets/logo-white.svg';
 
 const EMDAER_GITHUB = 'https://github.com/emdaer/emdaer';
 
@@ -26,7 +26,7 @@ const Header = () => (
     <Container>
       <Navbar expand="md">
         <LogoLink to="/">
-          <g.Img marginBottom="0" src={logo} alt="logo" />
+          <g.Img marginBottom="0" src={logo} alt="logo" width="120px" />
         </LogoLink>
         <Nav className="ml-auto">
           <ExternalLink href={EMDAER_GITHUB}>
