@@ -29,6 +29,7 @@
     "@emdaer/plugin-license-reference": "^1.2.1",
     "@emdaer/plugin-shields": "^1.2.1",
     "@emdaer/plugin-value-from-package": "^1.2.1",
+    "@emdaer/transform-prettier": "^1.6.16",
     "@emdaer/transform-smartypants": "^1.2.1",
     "babel-eslint": "^8.0.1",
     "commitlint": "^4.2.2",
