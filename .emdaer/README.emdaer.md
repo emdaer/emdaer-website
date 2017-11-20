@@ -17,6 +17,8 @@
   - '@emdaer/plugin-value-from-package'
   - value: description
 -->
+## Table of contents
+<!-- toc -->
 ## Deployments
 
 ### Website
