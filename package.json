@@ -29,7 +29,9 @@
     "@emdaer/plugin-license-reference": "^1.2.1",
     "@emdaer/plugin-shields": "^1.2.1",
     "@emdaer/plugin-value-from-package": "^1.2.1",
+    "@emdaer/transform-prettier": "^1.6.16",
     "@emdaer/transform-smartypants": "^1.2.1",
+    "@emdaer/transform-table-of-contents": "^1.6.16",
     "babel-eslint": "^8.0.1",
     "commitlint": "^4.2.2",
     "eslint": "^4.9.0",
@@ -50,8 +52,9 @@
     "travis-deploy-once": "^3.0.0"
   },
   "dependencies": {
+    "@emdaer/meta": "^1.6.16",
     "bootstrap": "4.0.0-beta",
-    "gatsby": "^1.9.96",
+    "gatsby": "^1.9.118",
     "gatsby-link": "^1.6.24",
     "gatsby-plugin-glamor": "^1.6.8",
     "gatsby-plugin-react-helmet": "^1.0.8",
@@ -59,6 +62,8 @@
     "glamorous": "^4.11.0",
     "react-icons": "^2.2.7",
     "reactstrap": "^5.0.0-alpha.3",
+    "remark": "^8.0.0",
+    "remark-react": "^4.0.1",
     "typography": "^0.16.6",
     "typography-theme-bootstrap": "^0.16.7"
   }
