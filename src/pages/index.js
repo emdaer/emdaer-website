@@ -1,6 +1,17 @@
 import React from 'react';
 import g from 'glamorous';
+import { Jumbotron } from 'reactstrap';
+import remark from 'remark';
+import reactRenderer from 'remark-react';
+import whatIsEmdaer from '@emdaer/meta/lib/README/what-is-emdaer';
+import howEmdaerWorks from '@emdaer/meta/lib/README/how-emdaer-works';
+import addingEmdaer from '@emdaer/meta/lib/README/adding-emdaer-to-your-project';
 import { rhythm } from '../utils/typography';
+
+const createMarkup = content =>
+  remark()
+    .use(reactRenderer)
+    .processSync(content).contents;
 
 const IndexPage = () => (
   <div>
@@ -17,6 +28,9 @@ const IndexPage = () => (
         Create and Maintain better READMEs
       </g.P>
     </g.Section>
+    <Jumbotron>{createMarkup(whatIsEmdaer)}</Jumbotron>
+    <g.Section>{createMarkup(howEmdaerWorks)}</g.Section>
+    <Jumbotron>{createMarkup(addingEmdaer)}</Jumbotron>
   </div>
 );
 
