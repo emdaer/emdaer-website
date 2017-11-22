@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.css';
 import g, { ThemeProvider } from 'glamorous';
-import { Navbar, Nav, Container, Row, Col } from 'reactstrap';
+import { Navbar, Nav, Container } from 'reactstrap';
 import { rhythm } from '../utils/typography';
 import theme from '../utils/theme';
 import { ExternalLink, ExternalLinkIcon } from '../utils/styleHelpers';
@@ -46,9 +46,7 @@ const TemplateWrapper = ({ children }) => (
     <div>
       <Helmet title="emdaer" />
       <Header />
-      <Row>
-        <Col>{children()}</Col>
-      </Row>
+      <div>{children()}</div>
     </div>
   </ThemeProvider>
 );
