@@ -32,7 +32,7 @@ const IndexPage = ({ theme }) => (
       color="white"
       textAlign="center"
       backgroundColor="#F9F9F9"
-      padding={`${rhythm(2.5)} ${rhythm(3 / 4)}`}
+      padding={`${rhythm(2)} ${rhythm(3 / 4)}`}
     >
       <g.Img
         margin="0 auto 35px auto"
