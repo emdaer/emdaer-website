@@ -60,6 +60,7 @@
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-typography": "^1.7.10",
     "glamorous": "^4.11.0",
+    "prop-types": "^15.6.0",
     "react-icons": "^2.2.7",
     "reactstrap": "^5.0.0-alpha.3",
     "remark": "^8.0.0",

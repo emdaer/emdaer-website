@@ -8,7 +8,10 @@ import { Navbar, Nav, Container, Row, Col } from 'reactstrap';
 import { rhythm } from '../utils/typography';
 import theme from '../utils/theme';
 import { ExternalLink, ExternalLinkIcon } from '../utils/styleHelpers';
+
 import logo from '../assets/logo-white.svg';
+
+import './index.css';
 
 const EMDAER_GITHUB = 'https://github.com/emdaer/emdaer';
 
@@ -43,11 +46,9 @@ const TemplateWrapper = ({ children }) => (
     <div>
       <Helmet title="emdaer" />
       <Header />
-      <Container>
-        <Row>
-          <Col>{children()}</Col>
-        </Row>
-      </Container>
+      <Row>
+        <Col>{children()}</Col>
+      </Row>
     </div>
   </ThemeProvider>
 );
