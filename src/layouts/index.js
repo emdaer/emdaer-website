@@ -4,11 +4,14 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.css';
 import g, { ThemeProvider } from 'glamorous';
-import { Navbar, Nav, Container, Row, Col } from 'reactstrap';
+import { Navbar, Nav, Container } from 'reactstrap';
 import { rhythm } from '../utils/typography';
 import theme from '../utils/theme';
 import { ExternalLink, ExternalLinkIcon } from '../utils/styleHelpers';
+
 import logo from '../assets/logo-white.svg';
+
+import './index.css';
 
 const EMDAER_GITHUB = 'https://github.com/emdaer/emdaer';
 
@@ -43,11 +46,7 @@ const TemplateWrapper = ({ children }) => (
     <div>
       <Helmet title="emdaer" />
       <Header />
-      <Container>
-        <Row>
-          <Col>{children()}</Col>
-        </Row>
-      </Container>
+      <div>{children()}</div>
     </div>
   </ThemeProvider>
 );
