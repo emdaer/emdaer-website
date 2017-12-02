@@ -1,16 +1,17 @@
 import React from 'react';
-import { Container } from 'reactstrap';
 import g from 'glamorous';
+import { rhythm } from '../utils/typography';
 import Menu from './Menu';
-
-const NavbarWrapper = g.div(props => ({
-  backgroundColor: props.theme.brand,
-}));
+import RibbonContainer from './RibbonContainer';
 
 export default () => (
-  <NavbarWrapper>
-    <Container>
+  <RibbonContainer
+    color="white"
+    backgroundColor="#E25E3E"
+    padding={`${rhythm(1 / 2)} ${rhythm(3 / 4)}`}
+  >
+    <g.Div display="flex" justifyContent="center">
       <Menu />
-    </Container>
-  </NavbarWrapper>
+    </g.Div>
+  </RibbonContainer>
 );
