@@ -11,7 +11,6 @@ import addingEmdaer from '@emdaer/meta/lib/README/adding-emdaer-to-your-project'
 import { rhythm } from '../utils/typography';
 import { ExternalLink, ExternalLinkIcon } from '../utils/styleHelpers';
 import RibbonContainer from '../components/RibbonContainer';
-import Footer from '../components/Footer';
 
 import logo from '../assets/logo.svg';
 
@@ -64,12 +63,6 @@ const IndexPage = ({ theme }) => (
       {createMarkup(howEmdaerWorks)}
     </RibbonContainer>
     <RibbonContainer>{createMarkup(addingEmdaer)}</RibbonContainer>
-    <Footer
-      backgroundColor={theme.brand}
-      boxShadow="inset 0 10px 10px -5px rgba(0,0,0,0.2)"
-      padding={rhythm(1)}
-      textAlign="right"
-    />
   </div>
 );
 
