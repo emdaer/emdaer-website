@@ -12,8 +12,6 @@ import { rhythm } from '../utils/typography';
 import { ExternalLink, ExternalLinkIcon } from '../utils/styleHelpers';
 import RibbonContainer from '../components/RibbonContainer';
 
-import logo from '../assets/logo.svg';
-
 const createMarkup = content =>
   remark()
     .use(reactRenderer)
@@ -34,13 +32,7 @@ const IndexPage = ({ theme }) => (
       backgroundColor="#F9F9F9"
       padding={`${rhythm(2)} ${rhythm(3 / 4)}`}
     >
-      <g.Img
-        margin="0 auto 35px auto"
-        src={logo}
-        display="block"
-        alt="emdaer"
-        width="240px"
-      />
+      <g.H1 color={theme.brand}>emdaer</g.H1>
       <g.H2 color={theme.brand}>
         <small>
           <span role="img" aria-label="Notebook">
