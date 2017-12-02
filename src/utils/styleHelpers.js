@@ -16,17 +16,19 @@ export const ExternalLink = g(TextLink)(
     primaryColor = 'white',
     hoverColor = theme.brand,
     padding = `${rhythm(1 / 8)} ${rhythm(1 / 3)}`,
+    textTransform = 'none',
   }) => ({
     display: 'inline-block',
-    border: `2px solid ${primaryColor}`,
+    border: `1px solid ${primaryColor}`,
     borderRadius: rhythm(1 / 5),
     padding,
     color: primaryColor,
     ':hover': {
-      border: `2px solid ${primaryColor}`,
+      border: `1px solid ${primaryColor}`,
       color: hoverColor,
       backgroundColor: primaryColor,
     },
+    textTransform,
   })
 );
 

@@ -9,7 +9,7 @@ import howEmdaerWorks from '@emdaer/meta/lib/README/how-emdaer-works';
 import addingEmdaer from '@emdaer/meta/lib/README/adding-emdaer-to-your-project';
 
 import { rhythm } from '../utils/typography';
-import { ExternalLink, ExternalLinkIcon } from '../utils/styleHelpers';
+import { ExternalLink } from '../utils/styleHelpers';
 import RibbonContainer from '../components/RibbonContainer';
 
 const createMarkup = content =>
@@ -45,9 +45,10 @@ const IndexPage = ({ theme }) => (
         href={GET_STARTED}
         primaryColor={theme.brand}
         hoverColor="white"
-        padding={`${rhythm(1 / 2)} ${rhythm(1 / 2)}`}
+        padding={`${rhythm(1 / 3)} ${rhythm(1 / 2)}`}
+        textTransform="uppercase"
       >
-        Get Started <ExternalLinkIcon />
+        Get Started
       </GettingStartedLink>
     </RibbonContainer>
     <RibbonContainer>{createMarkup(whatIsEmdaer)}</RibbonContainer>
