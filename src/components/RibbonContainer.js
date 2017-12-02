@@ -9,7 +9,7 @@ const InnerContainer = g.div(
   {
     /* Fallback */
     margin: '0 auto',
-    padding: `${rhythm(2)} ${rhythm(3 / 4)}`,
+    padding: `${rhythm(4)} ${rhythm(3 / 4)}`,
   },
   {
     [mediaQueries.small]: {

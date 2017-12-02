@@ -26,12 +26,7 @@ const GettingStartedLink = g(ExternalLink)({
 
 const IndexPage = ({ theme }) => (
   <div>
-    <RibbonContainer
-      color="white"
-      textAlign="center"
-      backgroundColor="#F9F9F9"
-      padding={`${rhythm(2)} ${rhythm(3 / 4)}`}
-    >
+    <RibbonContainer color="white" textAlign="center" backgroundColor="#F9F9F9">
       <g.H1 color={theme.brand}>emdaer</g.H1>
       <g.H2 color={theme.brand}>
         <small>
