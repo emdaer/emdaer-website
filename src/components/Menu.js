@@ -12,10 +12,10 @@ const LogoLink = g(Link)({
 });
 
 export default () => [
-  <LogoLink to="/">
+  <LogoLink key="logo" to="/">
     <g.Img marginBottom="0" src={logo} alt="logo" width="120px" />
   </LogoLink>,
-  <ExternalLink href={EMDAER_GITHUB}>
+  <ExternalLink key="gh-link" href={EMDAER_GITHUB}>
     GitHub <ExternalLinkIcon />
   </ExternalLink>,
 ];
