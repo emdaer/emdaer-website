@@ -9,11 +9,8 @@ import howEmdaerWorks from '@emdaer/meta/lib/README/how-emdaer-works';
 import addingEmdaer from '@emdaer/meta/lib/README/adding-emdaer-to-your-project';
 
 import { rhythm } from '../utils/typography';
-import { ExternalLink, ExternalLinkIcon } from '../utils/styleHelpers';
+import { ExternalLink } from '../utils/styleHelpers';
 import RibbonContainer from '../components/RibbonContainer';
-import Footer from '../components/Footer';
-
-import logo from '../assets/logo.svg';
 
 const createMarkup = content =>
   remark()
@@ -29,19 +26,8 @@ const GettingStartedLink = g(ExternalLink)({
 
 const IndexPage = ({ theme }) => (
   <div>
-    <RibbonContainer
-      color="white"
-      textAlign="center"
-      backgroundColor="#F9F9F9"
-      padding={`${rhythm(2)} ${rhythm(3 / 4)}`}
-    >
-      <g.Img
-        margin="0 auto 35px auto"
-        src={logo}
-        display="block"
-        alt="emdaer"
-        width="240px"
-      />
+    <RibbonContainer color="white" textAlign="center" backgroundColor="#F9F9F9">
+      <g.H1 color={theme.brand}>emdaer</g.H1>
       <g.H2 color={theme.brand}>
         <small>
           <span role="img" aria-label="Notebook">
@@ -54,9 +40,10 @@ const IndexPage = ({ theme }) => (
         href={GET_STARTED}
         primaryColor={theme.brand}
         hoverColor="white"
-        padding={`${rhythm(1 / 2)} ${rhythm(1 / 2)}`}
+        padding={`${rhythm(1 / 3)} ${rhythm(1 / 2)}`}
+        textTransform="uppercase"
       >
-        Get Started <ExternalLinkIcon />
+        Get Started
       </GettingStartedLink>
     </RibbonContainer>
     <RibbonContainer>{createMarkup(whatIsEmdaer)}</RibbonContainer>
@@ -64,12 +51,6 @@ const IndexPage = ({ theme }) => (
       {createMarkup(howEmdaerWorks)}
     </RibbonContainer>
     <RibbonContainer>{createMarkup(addingEmdaer)}</RibbonContainer>
-    <Footer
-      backgroundColor={theme.brand}
-      boxShadow="inset 0 10px 10px -5px rgba(0,0,0,0.2)"
-      padding={rhythm(1)}
-      textAlign="right"
-    />
   </div>
 );
 
