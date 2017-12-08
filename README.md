@@ -29,8 +29,7 @@ Travis autodeploys the website to GitHub Pages using its `deploy` configuration 
 
 ### Pull Requests
 
-Pull Request builds will run [surge-review](https://github.com/cdaringe/surge-review) via Travis&#8217; `after_success` hook on the highest node version build using [travis-deploy-once](https://github.com/semantic-release/travis-deploy-once). Once the deployment is sucessful, a comment from emdaerbot will be posted to the respective PR with a link to the built site. This can be used for design review and functional testing of Pull Requests. Each additional commit to the website source in the PR will
-rebuild the site and post a new link.
+Pull Request builds will run [surge-review](https://github.com/cdaringe/surge-review) via Travis&#8217; `after_success` hook on the highest node version build using [travis-deploy-once](https://github.com/semantic-release/travis-deploy-once). Once the deployment is sucessful, a comment from emdaerbot will be posted to the respective PR with a link to the built site. This can be used for design review and functional testing of Pull Requests. Each additional commit to the website source in the PR will rebuild the site and post a new link.
 
 ## Content
 
