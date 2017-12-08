@@ -3,13 +3,13 @@ export FORCE_COLOR = true
 precommit: lint-staged emdaer
 commitmsg: commitlint
 
+upgrade:
+	yarn upgrade
 build:
 	./node_modules/.bin/gatsby build
 develop:
 	./node_modules/.bin/gatsby develop --verbose
-predeploy: 
-	npm update
-	build
+predeploy: upgrade build
 	cp CNAME public/CNAME
 	touch public/.nojekyll
 	touch public/static/.gitkeep
