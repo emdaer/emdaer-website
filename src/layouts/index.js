@@ -6,7 +6,7 @@ import { ThemeProvider } from 'glamorous';
 import theme from '../utils/theme';
 import Header from '../components/Header';
 
-import './index.css';
+import '../css/index.css';
 
 const TemplateWrapper = ({ children }) => (
   <ThemeProvider theme={theme}>
