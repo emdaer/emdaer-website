@@ -1,28 +1,11 @@
+sudo: false
 language: node_js
 node_js:
   - 8.9
   - 9
 script:
   - make ci
-sudo: false
 branches:
   except:
     - /^v\d/
     - master
-before_script:
-  - export GH_PULL_REQUEST=$TRAVIS_PULL_REQUEST
-after_success:
-  - node ./.travis/pr_deploy
-before_deploy: yarn predeploy
-deploy:
-  provider: pages
-  skip_cleanup: true
-  local_dir: public
-  target_branch: master
-  fqdn: emdaer.me
-  github_token: $GH_TOKEN
-  email: $GH_EMAIL
-  name: $GH_USERNAME
-  on:
-    branch: site
-    node: 8.9
