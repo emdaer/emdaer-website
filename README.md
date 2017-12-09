@@ -4,7 +4,7 @@
   Its template can be found at .emdaer/README.emdaer.md
 -->
 
-# emdaer.github.io · [![Travis](https://img.shields.io/travis/emdaer/emdaer.svg?style=flat-square)](https://travis-ci.org/emdaer/emdaer.github.io/) [![Documented with emdaer](https://img.shields.io/badge/📓-documented%20with%20emdaer-F06632.svg?style=flat-square)](https://github.com/emdaer/emdaer)
+# emdaer.me · [![Travis](https://img.shields.io/travis/emdaer/emdaer.svg?style=flat-square)](https://travis-ci.org/emdaer/emdaer.github.io/) [![Documented with emdaer](https://img.shields.io/badge/📓-documented%20with%20emdaer-F06632.svg?style=flat-square)](https://github.com/emdaer/emdaer)
 
 emdaer website
 
@@ -25,11 +25,11 @@ emdaer website
 
 ### Website
 
-Travis autodeploys the website to GitHub Pages using its `deploy` configuration when changes are merged into the `site` branch. Being an [Organization Page](https://help.github.com/articles/user-organization-and-project-pages/), the website code is stored on the `master` branch.
+[Netlify](https://app.netlify.com/sites/sleepy-almeida-dd718d/settings/deploys#continuous-deployment) runs `make predeploy` and publishes the `public` directory when pushes are made to the `site` branch.
 
 ### Pull Requests
 
-Pull Request builds will run [surge-review](https://github.com/cdaringe/surge-review) via Travis&#8217; `after_success` hook on the highest node version build using [travis-deploy-once](https://github.com/semantic-release/travis-deploy-once). Once the deployment is sucessful, a comment from emdaerbot will be posted to the respective PR with a link to the built site. This can be used for design review and functional testing of Pull Requests. Each additional commit to the website source in the PR will rebuild the site and post a new link.
+Pull Requests will provide a link to a &#8220;Deploy Preview&#8221; courtesey of [Netlify](https://www.netlify.com/docs/continuous-deployment/#branches-deploys). This can be used for design review and functional testing.
 
 ## Content
 
@@ -53,7 +53,7 @@ Some of the content on this website is shared from the [emdaer](https://github.c
 
 ## License
 
-emdaer.github.io is [MIT licensed](./LICENSE).
+emdaer.me is [MIT licensed](./LICENSE).
 
 
 
