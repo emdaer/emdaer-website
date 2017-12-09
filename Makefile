@@ -10,11 +10,6 @@ build:
 develop:
 	./node_modules/.bin/gatsby develop --verbose
 predeploy: build
-	cp CNAME public/CNAME
-	touch public/.nojekyll
-	touch public/static/.gitkeep
-deploy:
-	./node_modules/.bin/gh-pages -t -d public -b master
 
 ci: commitlint-ci lint
 
