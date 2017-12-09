@@ -8,4 +8,3 @@ script:
 branches:
   except:
     - /^v\d/
-    - master
