@@ -43,3 +43,6 @@
 
 <h2 id="license">License</h2>
 <p>emdaer.me is <a href="./LICENSE">MIT licensed</a>.</p>
+
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/emdaer/emdaer.me.svg)](https://greenkeeper.io/)
