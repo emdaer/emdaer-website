@@ -12,6 +12,10 @@
         image: 'badge/📓-documented%20with%20emdaer-F06632.svg'
         link: 'https://github.com/emdaer/emdaer'
         style: 'flat-square'
+      - alt: 'Greenkeeper badge'
+        image: 'https://badges.greenkeeper.io/emdaer/emdaer.me.svg'
+        link: 'https://greenkeeper.io/'
+        style: 'flat-square'
 -->
 <!--emdaer-p
   - '@emdaer/plugin-value-from-package'
