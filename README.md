@@ -4,57 +4,42 @@
   Its template can be found at .emdaer/README.emdaer.md
 -->
 
-# emdaer.me · [![Travis](https://img.shields.io/travis/emdaer/emdaer.svg?style=flat-square)](https://travis-ci.org/emdaer/emdaer.github.io/) [![Documented with emdaer](https://img.shields.io/badge/📓-documented%20with%20emdaer-F06632.svg?style=flat-square)](https://github.com/emdaer/emdaer)
-
-emdaer website
-
-## Table of contents
-
+<h1 id="emdaer-me-travis-documented-with-emdaer">emdaer.me · <a href="https://travis-ci.org/emdaer/emdaer.github.io/"><img src="https://img.shields.io/travis/emdaer/emdaer.svg?style=flat-square" alt="Travis"></a> <a href="https://github.com/emdaer/emdaer"><img src="https://img.shields.io/badge/📓-documented%20with%20emdaer-F06632.svg?style=flat-square" alt="Documented with emdaer"></a></h1>
+<p>emdaer website</p>
+<h2 id="table-of-contents">Table of contents</h2>
 <!-- toc -->
-
-- [Deployments](#deployments)
-  * [Website](#website)
-  * [Pull Requests](#pull-requests)
-- [Content](#content)
-- [Contributors](#contributors)
-- [License](#license)
-
+<ul>
+<li><a href="#deployments">Deployments</a><ul>
+<li><a href="#website">Website</a></li>
+<li><a href="#pull-requests">Pull Requests</a></li>
+</ul>
+</li>
+<li><a href="#content">Content</a></li>
+<li><a href="#contributors">Contributors</a></li>
+<li><a href="#license">License</a></li>
+</ul>
 <!-- tocstop -->
-
-## Deployments
-
-### Website
-
-[Netlify](https://app.netlify.com/sites/sleepy-almeida-dd718d/settings/deploys#continuous-deployment) runs `make predeploy` and publishes the `public` directory when pushes are made to the `site` branch.
-
-### Pull Requests
-
-Pull Requests will provide a link to a &#8220;Deploy Preview&#8221; courtesey of [Netlify](https://www.netlify.com/docs/continuous-deployment/#branches-deploys). This can be used for design review and functional testing.
-
-## Content
-
-Some of the content on this website is shared from the [emdaer](https://github.com/emdaer/emdaer) readme via the [@emdaer/meta](https://www.npmjs.com/package/@emdaer/meta) package which exports the readme sections as template literals.
-
-## Contributors
-
+<h2 id="deployments">Deployments</h2>
+<h3 id="website">Website</h3>
+<p><a href="https://app.netlify.com/sites/sleepy-almeida-dd718d/settings/deploys#continuous-deployment">Netlify</a> runs <code>make predeploy</code> and publishes the <code>public</code> directory when pushes are made to the <code>site</code> branch.</p>
+<h3 id="pull-requests">Pull Requests</h3>
+<p>Pull Requests will provide a link to a “Deploy Preview” courtesey of <a href="https://www.netlify.com/docs/continuous-deployment/#branches-deploys">Netlify</a>. This can be used for design review and functional testing.</p>
+<h2 id="content">Content</h2>
+<p>Some of the content on this website is shared from the <a href="https://github.com/emdaer/emdaer">emdaer</a> readme via the <a href="https://www.npmjs.com/package/@emdaer/meta">@emdaer/meta</a> package which exports the readme sections as template literals.</p>
+<h2 id="contributors">Contributors</h2>
 <details>
-<summary><strong>Contributors</strong></summary><br />
+<summary><strong>Contributors</strong></summary><br>
 <a title="I build multi-channel publishing systems and web applications at @fourkitchens." href="https://github.com/infiniteluke">
-  <img align="left" src="https://avatars0.githubusercontent.com/u/1127238?s=24" />
+  <img align="left" src="https://avatars0.githubusercontent.com/u/1127238?s=24">
 </a>
 <strong>Luke Herrington</strong>
-<br /><br />
-<a href="https://github.com/flipactual">
-  <img align="left" src="https://avatars0.githubusercontent.com/u/1306968?s=24" />
+<br><br>
+<a title="" href="https://github.com/flipactual">
+  <img align="left" src="https://avatars0.githubusercontent.com/u/1306968?s=24">
 </a>
 <strong>Flip</strong>
-<br /><br />
+<br><br>
 </details>
 
-## License
-
-emdaer.me is [MIT licensed](./LICENSE).
-
-
-
-
+<h2 id="license">License</h2>
+<p>emdaer.me is <a href="./LICENSE">MIT licensed</a>.</p>

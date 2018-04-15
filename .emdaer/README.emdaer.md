@@ -18,7 +18,10 @@
   - value: description
 -->
 ## Table of contents
-<!-- toc -->
+<!--emdaer-t
+  - '@emdaer/transform-table-of-contents'
+-->
+
 ## Deployments
 
 ### Website
@@ -42,14 +45,8 @@ Some of the content on this website is shared from the [emdaer](https://github.c
 <!--emdaer-t
   - '@emdaer/transform-prettier'
   - options:
-      printWidth: 500
+      proseWrap: preserve
       singleQuote: true
       trailingComma: es5
 -->
-<!--emdaer-t
-  - '@emdaer/transform-smartypants'
-  - options: q
--->
-<!--emdaer-t
-  - '@emdaer/transform-table-of-contents'
--->
+
