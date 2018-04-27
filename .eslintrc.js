@@ -11,6 +11,9 @@ module.exports = {
       'styled-components',
     ],
   },
+  globals: {
+    graphql: true,
+  },
   rules: {
     'import/no-extraneous-dependencies': [
       'error',

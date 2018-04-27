@@ -10,6 +10,14 @@ module.exports = {
         pathToConfigModule: `src/utils/typography.js`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `node_modules/@emdaer/meta/src/README`,
+        name: 'markdown-pages',
+      },
+    },
+    `gatsby-transformer-remark`,
     `gatsby-plugin-glamor`,
   ],
 };
