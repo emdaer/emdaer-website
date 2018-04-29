@@ -25,7 +25,7 @@
 <h3 id="pull-requests">Pull Requests</h3>
 <p>Pull Requests will provide a link to a “Deploy Preview” courtesey of <a href="https://www.netlify.com/docs/continuous-deployment/#branches-deploys">Netlify</a>. This can be used for design review and functional testing.</p>
 <h2 id="content">Content</h2>
-<p>Some of the content on this website is shared from the <a href="https://github.com/emdaer/emdaer">emdaer</a> readme via the <a href="https://www.npmjs.com/package/@emdaer/meta">@emdaer/meta</a> package which exports the readme sections as template literals.</p>
+<p>Some of the content on this website is shared with the <a href="https://github.com/emdaer/emdaer">emdaer</a> readme via the <a href="https://www.npmjs.com/package/@emdaer/meta">@emdaer/meta</a> package which contains the README sections as markdown files. <code>gatsby-source-filesystem</code> and <code>gatsby-transformer-remark</code> are used to pull those files in at which point they are queryable by GraphQL.</p>
 <h2 id="contributors">Contributors</h2>
 <details>
 <summary><strong>Contributors</strong></summary><br>

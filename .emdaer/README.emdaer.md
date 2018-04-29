@@ -35,7 +35,7 @@
 Pull Requests will provide a link to a "Deploy Preview" courtesey of [Netlify](https://www.netlify.com/docs/continuous-deployment/#branches-deploys). This can be used for design review and functional testing.
 
 ## Content
-Some of the content on this website is shared from the [emdaer](https://github.com/emdaer/emdaer) readme via the [@emdaer/meta](https://www.npmjs.com/package/@emdaer/meta) package which exports the readme sections as template literals. 
+Some of the content on this website is shared with the [emdaer](https://github.com/emdaer/emdaer) readme via the [@emdaer/meta](https://www.npmjs.com/package/@emdaer/meta) package which contains the README sections as markdown files. `gatsby-source-filesystem` and `gatsby-transformer-remark` are used to pull those files in at which point they are queryable by GraphQL.
 
 ## Contributors
 <!--emdaer-p
