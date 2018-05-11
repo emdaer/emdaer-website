@@ -48,7 +48,7 @@
     "prettier": "^1.7.4"
   },
   "dependencies": {
-    "@emdaer/meta": "^2.0.2",
+    "@emdaer/meta": "^3.0.0",
     "bootstrap": "4.1.0",
     "gatsby": "^1.9.118",
     "gatsby-link": "^1.6.24",
