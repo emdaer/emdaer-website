@@ -4,6 +4,10 @@
   Its template can be found at .emdaer/README.emdaer.md
 -->
 
+<!--
+  emdaerHash:bd01081e2027a1a9db5afc7f615a1ae3
+-->
+
 <h1 id="emdaer-me-travis-documented-with-emdaer-greenkeeper-badge">emdaer.me · <a href="https://travis-ci.org/emdaer/emdaer.github.io/"><img src="https://img.shields.io/travis/emdaer/emdaer.svg?style=flat-square" alt="Travis"></a> <a href="https://github.com/emdaer/emdaer"><img src="https://img.shields.io/badge/📓-documented%20with%20emdaer-F06632.svg?style=flat-square" alt="Documented with emdaer"></a> <a href="https://greenkeeper.io/"><img src="https://img.shields.io/https://badges.greenkeeper.io/emdaer/emdaer.me.svg?style=flat-square" alt="Greenkeeper badge"></a></h1>
 <p>emdaer website</p>
 <h2 id="table-of-contents">Table of contents</h2>

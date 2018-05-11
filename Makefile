@@ -1,6 +1,6 @@
 export FORCE_COLOR = true
 
-precommit: lint-staged emdaer
+precommit: lint-staged
 commitmsg: commitlint
 
 upgrade:

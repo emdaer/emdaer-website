@@ -191,77 +191,71 @@
   dependencies:
     find-up "^2.1.0"
 
-"@emdaer/cli@^2.0.2":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@emdaer/cli/-/cli-2.1.1.tgz#06c452ac5e0b7f50366cb3021852f29fd52f5c71"
+"@emdaer/cli@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@emdaer/cli/-/cli-3.0.0.tgz#3b84131c3dae5a7e584635d45b0df51be19dda83"
   dependencies:
-    "@emdaer/core" "^2.1.1"
+    "@emdaer/core" "^3.0.0"
+    bluebird "^3.5.1"
     chalk "2.0.1"
     commander "2.11.0"
     fs-extra "3.0.1"
     glob "^7.1.2"
-    rxjs "^5.5.5"
+    inquirer "^5.1.0"
 
-"@emdaer/core@^2.0.2", "@emdaer/core@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@emdaer/core/-/core-2.1.1.tgz#f9ba3141fb735d065efc6db9dd3f7ac33c196f49"
+"@emdaer/core@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@emdaer/core/-/core-3.0.0.tgz#cba6ac245f35e0e2dc83178b4fbc40ef1afc83e4"
   dependencies:
     html-minifier "^3.5.14"
     js-yaml "3.8.4"
     marked "^0.3.19"
 
-"@emdaer/meta@^2.0.2":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@emdaer/meta/-/meta-2.1.1.tgz#7a3f9afa941ef7879592601276576a4d96f2abef"
+"@emdaer/meta@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@emdaer/meta/-/meta-3.0.0.tgz#d882ac2867ff4bac73831e3dae21ce79a610988f"
 
-"@emdaer/plugin-contributors-details-github@^2.0.2":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@emdaer/plugin-contributors-details-github/-/plugin-contributors-details-github-2.1.1.tgz#9486a917fec7b51991b6fcfd271c2b4e23706b30"
+"@emdaer/plugin-contributors-details-github@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@emdaer/plugin-contributors-details-github/-/plugin-contributors-details-github-3.0.0.tgz#d92a40f99435b92b401c0160ea9bd4b0d0af3f3b"
   dependencies:
     fs-extra "^4.0.2"
     glob "^7.1.2"
     node-fetch "^1.7.3"
 
-"@emdaer/plugin-import@^2.0.2":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@emdaer/plugin-import/-/plugin-import-2.1.1.tgz#2c927af1a6ecd057459f7fb53000dc8d17729226"
+"@emdaer/plugin-import@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@emdaer/plugin-import/-/plugin-import-3.0.0.tgz#d3430098e0626079c42520c49c7755bd6d371234"
   dependencies:
-    "@emdaer/core" "^2.1.1"
+    "@emdaer/core" "^3.0.0"
     fs-extra "3.0.1"
     lodash.get "^4.4.2"
 
-"@emdaer/plugin-license-reference@^2.0.2":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@emdaer/plugin-license-reference/-/plugin-license-reference-2.1.1.tgz#17208a232c27888920e8d4c76a5305799db9ef33"
+"@emdaer/plugin-license-reference@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@emdaer/plugin-license-reference/-/plugin-license-reference-3.0.0.tgz#6baec53d14dda29f80232080cc9f15ed64cc40c7"
   dependencies:
-    "@emdaer/plugin-value-from-package" "^2.1.1"
+    "@emdaer/plugin-value-from-package" "^3.0.0"
 
-"@emdaer/plugin-shields@^2.0.2":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@emdaer/plugin-shields/-/plugin-shields-2.1.1.tgz#f44a4e15d49a4f64ee1cb77bd9f342c5c4b8a5ab"
+"@emdaer/plugin-shields@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@emdaer/plugin-shields/-/plugin-shields-3.0.0.tgz#8cf584319df41b18cd5f6b07da78a090a7aa4b64"
 
-"@emdaer/plugin-value-from-package@^2.0.2", "@emdaer/plugin-value-from-package@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@emdaer/plugin-value-from-package/-/plugin-value-from-package-2.1.1.tgz#dcde1e5afe012e90df10529ac8a616da98a303ad"
+"@emdaer/plugin-value-from-package@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@emdaer/plugin-value-from-package/-/plugin-value-from-package-3.0.0.tgz#e2adebb8ef14d5c6e163bb9ddc61fd106d32e468"
   dependencies:
     fs-extra "3.0.1"
 
-"@emdaer/transform-prettier@^2.0.2":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@emdaer/transform-prettier/-/transform-prettier-2.1.1.tgz#a762704659b19c8300f5e3a911d4581a54dc4fca"
+"@emdaer/transform-prettier@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@emdaer/transform-prettier/-/transform-prettier-3.0.0.tgz#013e02a1974fb9af3d88bf0c15c5e51bcdf64ab8"
   dependencies:
     prettier "^1.12.0"
 
-"@emdaer/transform-smartypants@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@emdaer/transform-smartypants/-/transform-smartypants-2.0.0.tgz#3ed60c4e31b7388d3f5cea7d5d652e2f1163474c"
-  dependencies:
-    marked "^0.3.9"
-    smartypants "0.0.5"
-
-"@emdaer/transform-table-of-contents@^2.0.2":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@emdaer/transform-table-of-contents/-/transform-table-of-contents-2.1.1.tgz#d4b5b985d08d744709ce021c1db76f0ff9d37f82"
+"@emdaer/transform-table-of-contents@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@emdaer/transform-table-of-contents/-/transform-table-of-contents-3.0.0.tgz#0c743af724646e92c75602fed7f43b59776bf1a0"
   dependencies:
     markdown-toc "^1.2.0"
 
@@ -1704,7 +1698,7 @@ blob@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/blob/-/blob-0.0.4.tgz#bcf13052ca54463f30f9fc7e95b9a47630a94921"
 
-bluebird@3.5.1, bluebird@^3.0.5, bluebird@^3.3.4, bluebird@^3.5.0:
+bluebird@3.5.1, bluebird@^3.0.5, bluebird@^3.3.4, bluebird@^3.5.0, bluebird@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
 
@@ -1743,9 +1737,9 @@ boom@5.x.x:
   dependencies:
     hoek "4.x.x"
 
-bootstrap@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.1.0.tgz#110b05c31a236d56dbc9adcda6dd16f53738a28a"
+bootstrap@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.1.1.tgz#3aec85000fa619085da8d2e4983dfd67cf2114cb"
 
 bowser@^1.7.3:
   version "1.8.1"
@@ -3818,7 +3812,7 @@ extend@^3.0.0, extend@~3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
 
-external-editor@^2.0.4:
+external-editor@^2.0.4, external-editor@^2.1.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/external-editor/-/external-editor-2.2.0.tgz#045511cfd8d133f3846673d1047c154e214ad3d5"
   dependencies:
@@ -5278,6 +5272,24 @@ inquirer@3.3.0, inquirer@^3.0.1, inquirer@^3.0.6:
     strip-ansi "^4.0.0"
     through "^2.3.6"
 
+inquirer@^5.1.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-5.2.0.tgz#db350c2b73daca77ff1243962e9f22f099685726"
+  dependencies:
+    ansi-escapes "^3.0.0"
+    chalk "^2.0.0"
+    cli-cursor "^2.1.0"
+    cli-width "^2.0.0"
+    external-editor "^2.1.0"
+    figures "^2.0.0"
+    lodash "^4.3.0"
+    mute-stream "0.0.7"
+    run-async "^2.2.0"
+    rxjs "^5.5.2"
+    string-width "^2.1.0"
+    strip-ansi "^4.0.0"
+    through "^2.3.6"
+
 interpret@^0.6.4:
   version "0.6.6"
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-0.6.6.tgz#fecd7a18e7ce5ca6abfb953e1f86213a49f1625b"
@@ -6666,7 +6678,7 @@ markdown-toc@^1.2.0:
     repeat-string "^1.6.1"
     strip-color "^0.1.0"
 
-marked@^0.3.19, marked@^0.3.9:
+marked@^0.3.19:
   version "0.3.19"
   resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.19.tgz#5d47f709c4c9fc3c216b6d46127280f40b39d790"
 
@@ -9347,7 +9359,7 @@ rx-lite@*, rx-lite@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/rx-lite/-/rx-lite-4.0.8.tgz#0b1e11af8bc44836f04a6407e92da42467b79444"
 
-rxjs@^5.4.2, rxjs@^5.5.5:
+rxjs@^5.4.2, rxjs@^5.5.2:
   version "5.5.10"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.5.10.tgz#fde02d7a614f6c8683d0d1957827f492e09db045"
   dependencies:
@@ -9640,10 +9652,6 @@ slice-ansi@1.0.0:
   resolved "https://registry.yarnpkg.com/slice-ansi/-/slice-ansi-1.0.0.tgz#044f1a49d8842ff307aad6b505ed178bd950134d"
   dependencies:
     is-fullwidth-code-point "^2.0.0"
-
-smartypants@0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/smartypants/-/smartypants-0.0.5.tgz#43da37cd1652c7c329df7022a8511e8f68466908"
 
 snapdragon-node@^2.0.1:
   version "2.1.1"
