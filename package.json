@@ -25,7 +25,7 @@
     "@emdaer/core": "^3.0.0",
     "@emdaer/plugin-contributors-details-github": "^2.0.2",
     "@emdaer/plugin-import": "^2.0.2",
-    "@emdaer/plugin-license-reference": "^2.0.2",
+    "@emdaer/plugin-license-reference": "^3.0.0",
     "@emdaer/plugin-shields": "^2.0.2",
     "@emdaer/plugin-value-from-package": "^2.0.2",
     "@emdaer/transform-prettier": "^2.0.2",
