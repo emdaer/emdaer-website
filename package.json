@@ -30,7 +30,7 @@
     "@emdaer/plugin-value-from-package": "^2.0.2",
     "@emdaer/transform-prettier": "^2.0.2",
     "@emdaer/transform-smartypants": "^2.0.0",
-    "@emdaer/transform-table-of-contents": "^2.0.2",
+    "@emdaer/transform-table-of-contents": "^3.0.0",
     "babel-eslint": "^8.0.1",
     "commitlint": "^6.1.3",
     "eslint": "^4.9.0",
