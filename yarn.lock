@@ -211,6 +211,15 @@
     js-yaml "3.8.4"
     marked "^0.3.19"
 
+"@emdaer/core@^3.2.4":
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/@emdaer/core/-/core-3.2.4.tgz#419b81ad423af4a27ffe3baccd58ac7c6b269f15"
+  integrity sha512-OLBeRSykEcBMfQLfhMjIDqZHjQ5doGeyGD68aRfTjQkOHAU0a3irpanNt0utAbu55AXPPsaAKPxNAeaSzkPNkg==
+  dependencies:
+    html-minifier "^3.5.14"
+    js-yaml "3.8.4"
+    marked "^0.3.19"
+
 "@emdaer/meta@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@emdaer/meta/-/meta-3.0.0.tgz#d882ac2867ff4bac73831e3dae21ce79a610988f"
