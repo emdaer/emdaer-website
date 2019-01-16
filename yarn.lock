@@ -231,11 +231,12 @@
     fs-extra "3.0.1"
     lodash.get "^4.4.2"
 
-"@emdaer/plugin-license-reference@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@emdaer/plugin-license-reference/-/plugin-license-reference-3.0.0.tgz#6baec53d14dda29f80232080cc9f15ed64cc40c7"
+"@emdaer/plugin-license-reference@^3.2.4":
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/@emdaer/plugin-license-reference/-/plugin-license-reference-3.2.4.tgz#97519af39caff3f3759ee2f5c344ea61c8cd3829"
+  integrity sha512-KT04PyQmK7QwSSDu5k4v2Sicq7vZ2KvM/2BnJQzzZJ4a9s2JXdOr/iOpCFb1cRqPIVr+XyK7p0Y2F3uZicfM5Q==
   dependencies:
-    "@emdaer/plugin-value-from-package" "^3.0.0"
+    "@emdaer/plugin-value-from-package" "^3.2.4"
 
 "@emdaer/plugin-shields@^3.0.0":
   version "3.0.0"
@@ -244,6 +245,13 @@
 "@emdaer/plugin-value-from-package@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@emdaer/plugin-value-from-package/-/plugin-value-from-package-3.0.0.tgz#e2adebb8ef14d5c6e163bb9ddc61fd106d32e468"
+  dependencies:
+    fs-extra "3.0.1"
+
+"@emdaer/plugin-value-from-package@^3.2.4":
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/@emdaer/plugin-value-from-package/-/plugin-value-from-package-3.2.4.tgz#19a82dba30a4baf3cbbf3c3e449cc3b11a3dce5b"
+  integrity sha512-kBOnB/bKWSr0nA4J+TTvaCBlyCgkiAyc90hUppG8XTnKdtb3dSP84EenHwt+gBoxCy40YgQTN35dR58wi32qgg==
   dependencies:
     fs-extra "3.0.1"
 
