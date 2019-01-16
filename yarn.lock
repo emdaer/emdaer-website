@@ -211,6 +211,15 @@
     js-yaml "3.8.4"
     marked "^0.3.19"
 
+"@emdaer/core@^3.2.4":
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/@emdaer/core/-/core-3.2.4.tgz#419b81ad423af4a27ffe3baccd58ac7c6b269f15"
+  integrity sha512-OLBeRSykEcBMfQLfhMjIDqZHjQ5doGeyGD68aRfTjQkOHAU0a3irpanNt0utAbu55AXPPsaAKPxNAeaSzkPNkg==
+  dependencies:
+    html-minifier "^3.5.14"
+    js-yaml "3.8.4"
+    marked "^0.3.19"
+
 "@emdaer/meta@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@emdaer/meta/-/meta-3.0.0.tgz#d882ac2867ff4bac73831e3dae21ce79a610988f"
@@ -223,11 +232,12 @@
     glob "^7.1.2"
     node-fetch "^1.7.3"
 
-"@emdaer/plugin-import@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@emdaer/plugin-import/-/plugin-import-3.0.0.tgz#d3430098e0626079c42520c49c7755bd6d371234"
+"@emdaer/plugin-import@^3.2.4":
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/@emdaer/plugin-import/-/plugin-import-3.2.4.tgz#9729e2f0372ab760c4da9bc5786893fc9710699e"
+  integrity sha512-8nyoJJ2EZyhHDJxan7d6/yjZcMsY6BgdRW2tIOU0tDb99ri3oeYfR++453u6a6d2zlChgJ+bZyeHttV+km5C2w==
   dependencies:
-    "@emdaer/core" "^3.0.0"
+    "@emdaer/core" "^3.2.4"
     fs-extra "3.0.1"
     lodash.get "^4.4.2"
 
