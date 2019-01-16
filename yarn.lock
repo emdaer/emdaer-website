@@ -215,9 +215,10 @@
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@emdaer/meta/-/meta-3.0.0.tgz#d882ac2867ff4bac73831e3dae21ce79a610988f"
 
-"@emdaer/plugin-contributors-details-github@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@emdaer/plugin-contributors-details-github/-/plugin-contributors-details-github-3.0.0.tgz#d92a40f99435b92b401c0160ea9bd4b0d0af3f3b"
+"@emdaer/plugin-contributors-details-github@^3.2.4":
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/@emdaer/plugin-contributors-details-github/-/plugin-contributors-details-github-3.2.4.tgz#117c4ea2c1a07ae748356b72ebe4f33ea0a5e33e"
+  integrity sha512-CWxCFTCmeq1mcEWYlKog4fjAsHGe/qnwD07vVdwQmqQWP92hsuba7p8lEFsGT5kNnL6V13EuaGZROk3Y+mUgHw==
   dependencies:
     fs-extra "^4.0.2"
     glob "^7.1.2"
