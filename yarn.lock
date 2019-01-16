@@ -253,9 +253,10 @@
   dependencies:
     prettier "^1.12.0"
 
-"@emdaer/transform-table-of-contents@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@emdaer/transform-table-of-contents/-/transform-table-of-contents-3.0.0.tgz#0c743af724646e92c75602fed7f43b59776bf1a0"
+"@emdaer/transform-table-of-contents@^3.2.4":
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/@emdaer/transform-table-of-contents/-/transform-table-of-contents-3.2.4.tgz#de451eb61f90508eb023e7c40e38b15bdc160091"
+  integrity sha512-KV9e0lY1TPuHd2vKRcAmy5dA07vqvXKny0cOL9yIwiQoRgthfO8O3iByjZJWjLZGMlLhSS1V7zsEpaUhPEqMPw==
   dependencies:
     markdown-toc "^1.2.0"
 
