@@ -5,7 +5,7 @@
 -->
 
 <!--
-  emdaerHash:bd01081e2027a1a9db5afc7f615a1ae3
+  emdaerHash:d31a6aba3e75c94bd523edfe1f8b1132
 -->
 
 <h1 id="emdaer-me-travis-documented-with-emdaer-greenkeeper-badge">emdaer.me · <a href="https://travis-ci.org/emdaer/emdaer.github.io/"><img src="https://img.shields.io/travis/emdaer/emdaer.svg?style=flat-square" alt="Travis"></a> <a href="https://github.com/emdaer/emdaer"><img src="https://img.shields.io/badge/📓-documented%20with%20emdaer-F06632.svg?style=flat-square" alt="Documented with emdaer"></a> <a href="https://greenkeeper.io/"><img src="https://img.shields.io/https://badges.greenkeeper.io/emdaer/emdaer.me.svg?style=flat-square" alt="Greenkeeper badge"></a></h1>
@@ -38,7 +38,7 @@
 </a>
 <strong>Luke Herrington</strong>
 <br><br>
-<a title="" href="https://github.com/flipactual">
+<a title="Can you jam with the console cowboys in cyberspace?" href="https://github.com/flipactual">
   <img align="left" src="https://avatars0.githubusercontent.com/u/1306968?s=24">
 </a>
 <strong>Flip</strong>
