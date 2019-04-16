@@ -8604,15 +8604,10 @@ react-html-attributes@^1.3.0:
   dependencies:
     html-element-attributes "^1.0.0"
 
-react-icon-base@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/react-icon-base/-/react-icon-base-2.1.0.tgz#a196e33fdf1e7aaa1fda3aefbb68bdad9e82a79d"
-
-react-icons@^2.2.7:
-  version "2.2.7"
-  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-2.2.7.tgz#d7860826b258557510dac10680abea5ca23cf650"
-  dependencies:
-    react-icon-base "2.1.0"
+react-icons@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-3.6.0.tgz#229ba896ea110c431c9f6dd811babdd31866390f"
+  integrity sha512-oburoiCTdEZm7SSph9qnvqneCRF9+hv7UqbsWASnZeIne4ztiGFPzOdM5py1hq0q84gk5M2cZjqgOs8Dvfrvgg==
 
 react-popper@^0.7.2:
   version "0.7.4"
