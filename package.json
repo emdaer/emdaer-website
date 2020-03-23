@@ -44,7 +44,7 @@
     "gh-pages": "^1.0.0",
     "husky": "^0.14.3",
     "lint-staged": "^7.0.4",
-    "prettier": "^1.7.4"
+    "prettier": "^2.0.2"
   },
   "dependencies": {
     "@emdaer/meta": "^3.0.0",
