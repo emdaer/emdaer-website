@@ -8327,9 +8327,10 @@ prettier@^1.12.0:
   version "1.12.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.12.1.tgz#c1ad20e803e7749faf905a409d2367e06bbe7325"
 
-prettier@^1.7.4:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.9.1.tgz#41638a0d47c1efbd1b7d5a742aaa5548eab86d70"
+prettier@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.0.3.tgz#9a06f0e94a51420e78b6925568b5bec72afe41ea"
+  integrity sha512-5qpBDBHO9fpE0zruKiTZm8Gxmz7kknO+WlQR/ivV+RMwgDw/WjOgmxLDn66MPrxq/WZPx/EgEZzh87xJO5E6Fw==
 
 pretty-bytes@^4.0.2:
   version "4.0.2"
