@@ -211,9 +211,10 @@
     js-yaml "3.8.4"
     marked "^0.3.19"
 
-"@emdaer/meta@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@emdaer/meta/-/meta-3.0.0.tgz#d882ac2867ff4bac73831e3dae21ce79a610988f"
+"@emdaer/meta@^3.2.31":
+  version "3.2.31"
+  resolved "https://registry.yarnpkg.com/@emdaer/meta/-/meta-3.2.31.tgz#82204bac97a75ef28aa7c694c7cd506bedaed6f2"
+  integrity sha512-adiChKK5vKSs12UCi3/4J90cMuRiS0GxmhF4jCe3T4qg8g7HQMG7uIweiT1KPvF0wbzjaxMm7uDfxo063UYo8A==
 
 "@emdaer/plugin-contributors-details-github@^3.0.0":
   version "3.0.0"
