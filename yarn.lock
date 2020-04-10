@@ -247,9 +247,10 @@
   dependencies:
     fs-extra "3.0.1"
 
-"@emdaer/transform-prettier@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@emdaer/transform-prettier/-/transform-prettier-3.0.0.tgz#013e02a1974fb9af3d88bf0c15c5e51bcdf64ab8"
+"@emdaer/transform-prettier@^3.2.31":
+  version "3.2.31"
+  resolved "https://registry.yarnpkg.com/@emdaer/transform-prettier/-/transform-prettier-3.2.31.tgz#d092b0020e6ca3a6ec6dbf704cc3b1842073d887"
+  integrity sha512-Ad8GiwC6+cORZuQS4mSv1FU6vtvmCCv6unEGC5azepJteiBMv6PE8f6scyyPHupX+sgNI2K4b5F3tflNIO0qDA==
   dependencies:
     prettier "^1.12.0"
 
