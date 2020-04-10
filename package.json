@@ -28,7 +28,7 @@
     "@emdaer/plugin-license-reference": "^3.0.0",
     "@emdaer/plugin-shields": "^3.0.0",
     "@emdaer/plugin-value-from-package": "^3.0.0",
-    "@emdaer/transform-prettier": "^3.0.0",
+    "@emdaer/transform-prettier": "^3.2.31",
     "@emdaer/transform-table-of-contents": "^3.0.0",
     "babel-eslint": "^8.0.1",
     "commitlint": "^6.1.3",
